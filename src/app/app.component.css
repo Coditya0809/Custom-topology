@@ -1,0 +1,42 @@
+#draw{
+     height:100%;
+     width: 500px;
+ }
+
+ canvas{
+     z-index: -3;
+ }
+.col-1 #host-svg, 
+.col-1 #switch-svg,
+.col-1 #link-svg,
+.col-1 #select-svg {
+    background-color: #f1f1f1;
+    transition: background-color 0.7s;
+    -webkit-transition: background-color 0.7s;
+    -moz-transition: background-color 0.7s;
+    -ms-transition: background-color 0.7s;
+    -o-transition: background-color 0.7s;
+}
+
+.col-1  #host-svg:hover, 
+.col-1  #switch-svg:hover,
+.col-1  #link-svg:hover,
+.col-1  #select-svg:hover {
+    background-color: #cfcfcf;
+}
+
+.container{
+    border: 1px black solid;
+    margin: 10px auto;
+    
+}
+
+.cloneSvg{
+    cursor: move;
+    /* display: inline-block; */
+    /* display:contents */
+}
+
+.hold{
+    background-color: #c6c6c6 !important;
+}
